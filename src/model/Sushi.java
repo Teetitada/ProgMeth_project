@@ -1,6 +1,6 @@
 package model;
 
-public abstract class Sushi implements Pickable {
+public abstract class Sushi extends Entity implements Pickable {
 
 	@Override
 	public void pick() {
