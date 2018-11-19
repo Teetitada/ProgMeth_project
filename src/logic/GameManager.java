@@ -5,7 +5,7 @@ import scene.GameOver;
 import scene.SceneManager;
 
 public class GameManager {
-	private static int score;
+	private static int currentScore;
 	
 	public static void startGame() {
 		
@@ -25,7 +25,13 @@ public class GameManager {
 		SceneManager.changeSceneTo(gameOver);
 	}
 	
+	private static void spawnObject() {
+/*		 Rectangle rect = new Rectangle(40, 40, Color.RED);
+		 rect.setTranslateY((int)(Math.random()*14)*40);
+*/
+	}
+	
 	public static int getCurrentScore() {
-		return score;
+		return currentScore;
 	}
 }

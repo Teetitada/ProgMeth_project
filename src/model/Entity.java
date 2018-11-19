@@ -15,7 +15,6 @@ public abstract class Entity {
 		return aliveStatus;
 	}
 	
-	abstract void dead();
 	
 	protected abstract void draw();
 }
